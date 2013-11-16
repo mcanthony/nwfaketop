@@ -1,0 +1,5 @@
+node-webkit/
+node_modules/
+*.app/
+app/node_modules/
+app/build/

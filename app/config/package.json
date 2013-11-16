@@ -1,0 +1,16 @@
+{
+  "name": "nwfaketop",
+  "main": "index.html",
+  "version":"0.0.1",
+  "window": {
+    "width": 600,
+    "height": 400,
+    "position": "center",
+    "toolbar": false,
+    "title": "nwfaketop",
+    "resizable": true
+  },
+  "devDependencies": {
+   
+  }
+}
