@@ -61,6 +61,7 @@ module.exports = function(grunt) {
                     'jade',
                     'sass',
                     'jshint',
+                    'uglify',
                     'copy:configs',
                     'nodewebkit',
                     'clean:build',
@@ -100,7 +101,14 @@ module.exports = function(grunt) {
                     message: 'Sucessful Build!', 
                 }
             }
+        },
+      uglify: {
+        app_files: {
+          files: {
+            'app/build/app.js': ['app/js/app.js']
+          }
         }
+      }
     });
     // These plugins provide necessary tasks.
     grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -113,11 +121,13 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-shell');   
     grunt.loadNpmTasks('grunt-notify'); 
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     // Default task.
     grunt.registerTask('default', [
         'jade',
         'sass',
         'jshint',
+        'uglify',
         'copy:configs',
         'nodewebkit',
         'clean:build',
