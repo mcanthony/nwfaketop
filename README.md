@@ -4,9 +4,5 @@
 ### Usage
 ```npm install```
 ```grunt```
-
-
-or
-
-
+#### Or
 ```grunt watch```
