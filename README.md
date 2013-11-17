@@ -2,5 +2,7 @@
 #### Includes Jade, Sass, jslint, uglify, and osx-notify
 
 ### Usage
-npm install
-grunt
+```npm install```
+```grunt```
+or
+```grunt watch```
