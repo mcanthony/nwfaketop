@@ -1,7 +1,12 @@
-# Node-Webkit Grunt Compiler
+## Node-Webkit Grunt Compiler
 #### Includes Jade, Sass, jslint, uglify, and osx-notify
 
-### Usage
+A Simple Grunt configuration to quickly deploy Node-webkit based applications.
 
-```npm install```
-```grunt```
+**Usage**
+* ```git clone https://github.com/wookiecooking/nwfaketop.git && cd nwfaketop
+* ```npm install```
+* ```grunt```
+
+**License**
+MIT
