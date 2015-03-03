@@ -5,8 +5,9 @@ A Simple Grunt configuration to quickly and automatically deploy Node-webkit bas
 Updates
 ---------
 
-## March 3rd, 2015
-Will update this soon, I believe there might be issues with now since node-webkit has moved onto io.js
+* **March 3rd, 2015**
+
+  Will update this soon, I believe there might be issues with now since node-webkit has moved onto io.js
 
 
 Usage
