@@ -1,4 +1,5 @@
 var configFile = require('./nwconfig');
+var pkg = require('./app/config/package.json');
 
 module.exports = function(grunt) {
     require('time-grunt')(grunt);
@@ -26,8 +27,14 @@ module.exports = function(grunt) {
         copy: {
           configs: {
             files: [
-              // includes files within path
-              {expand: true,flatten: true, src: ['app/config/*'], dest: 'app/build', filter: 'isFile'},
+                // includes files within path
+                {
+                    expand: true,
+                    flatten: true,
+                    src: ['app/config/*'],
+                    dest: 'app/build',
+                    filter: 'isFile'
+                },
             ]
           }
         },
