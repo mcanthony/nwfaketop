@@ -1,20 +1,39 @@
 {
   "name": "nwfaketop",
-  "version": "0.0.1",
+  "version": "0.2.0",
+  "description":"Simple Grunt configuration to quickly and automatically deploy Node-webkit based applications.",
+   "author": [
+    { "name" : "Austin Turnage", "email" : "austin@datarats.com", "url" : "http://austinturnage.com"  }
+  ],
   "devDependencies": {
-    "grunt-cli": "*",
-    "grunt": "~0.4.1",
-    "grunt-node-webkit-builder": "~0.1.11",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-jade": "~0.4.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-less": "~0.8.2",
-    "grunt-sass": "~0.8.0",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-bg-shell": "~2.3.0",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-shell": "~0.6.0",
-    "grunt-notify": "~0.2.16",
-    "grunt-contrib-uglify": "~0.2.7"
+    "grunt-cli": "latest",
+    "grunt": "latest",
+    "grunt-node-webkit-builder": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-jade": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-bg-shell": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-shell": "latest",
+    "grunt-notify": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "jshint-stylish": "latest",
+    "load-grunt-tasks": "latest",
+    "time-grunt": "latest"
+  },
+  "scripts":{
+    "test": "grunt test",
+    "start":"grunt"
+  },
+  "engine":{
+    "node":"iojs",
+    "npm":"latest"
+  },
+  "repository":{
+    "type":"git",
+    "url":"git@github.com:wookiecooking/nwfaketop.git"
   }
 }
