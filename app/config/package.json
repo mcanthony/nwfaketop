@@ -10,7 +10,10 @@
     "title": "nwfaketop",
     "resizable": true
   },
+  "dependencies":{
+
+  },
   "devDependencies": {
-   
+
   }
 }
