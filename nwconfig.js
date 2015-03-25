@@ -1,5 +1,5 @@
 var config = {
-  build_dir: './node-webkit',
+  build_dir: './nwbuild',
   mac: false,
   win: false,
   linux32: false,

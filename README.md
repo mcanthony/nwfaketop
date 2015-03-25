@@ -1,6 +1,6 @@
 # NW.js Grunt Compiler 0.2.0
 # [![Build Status][travis-image]][travis-url]
-A Simple Grunt configuration to quickly and automatically deploy Node-webkit based applications.
+A Simple Grunt configuration to quickly and automatically deploy NW.js based applications.
 
 ### Includes
 * Jade

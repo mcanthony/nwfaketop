@@ -1,7 +1,7 @@
 {
   "name": "nwfaketop",
-  "version": "0.2.0",
-  "description":"Simple Grunt configuration to quickly and automatically deploy Node-webkit based applications.",
+  "version": "0.2.1",
+  "description":"Simple Grunt configuration to quickly and automatically deploy NW.js based applications.",
    "author": [
     { "name" : "Austin Turnage", "email" : "austin@datarats.com", "url" : "http://austinturnage.com"  }
   ],
@@ -27,10 +27,6 @@
   "scripts":{
     "test": "grunt test",
     "start":"grunt"
-  },
-  "engine":{
-    "node":"iojs",
-    "npm":"latest"
   },
   "repository":{
     "type":"git",
