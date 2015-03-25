@@ -8,8 +8,9 @@ A Simple Grunt configuration to quickly and automatically deploy Node-webkit bas
 * uglify
 * osx-notify ( Works with Ubuntu )
 
+Usage
+--------
 
-### Usage
 * ```git clone https://github.com/wookiecooking/nwfaketop.git && cd nwfaketop```
 * ```npm install```
 * ```grunt```
